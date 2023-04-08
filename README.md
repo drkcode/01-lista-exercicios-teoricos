@@ -7,7 +7,7 @@
 
 2 - Fazendo parte de um time em que a todo momento novo código está sendo inserido, é possível que eu saiba quem foi a pessoa que escreveu uma determinada parte do código usando git? Se sim, descreva como.
 
-    - Sim. É possivel ver as informacoes dos commits atraves do comando 'git log' no terminal.
+    - Sim. É possivel é ver os autores de cada linha de codigo em um arquivo utilizando o comando 'git blame <file>'. Com o git blame é possivel selecionar intervalos de linhas utilizando opçao -L e passando o intervalo desejado para o resultado. Por padrao o git blame exibe o nome do autor, mas é possivel exibir o email do autor da linha passando a opcao -e. 
 
 3 - Qual a diferença entre git e GitHub/GitLab/BitBucket etc?
 
@@ -15,5 +15,5 @@
 
 4 - Qual a diferença de uma linguagem compilada e uma linguagem interpretada? O que é uma linguagem de alto nível?
 
-    - Uma linguagem compilada tem su codigo transformado em codigo binario para que possa ser executada por um sistema. Já uma linguagem interpretada, possui um interpretador que executa o codigo que sem que seja necessario transforma-lo em codigo binario.
+    - Uma linguagem compilada tem seu codigo transformado em codigo binario antes de poder ser executada por um computador. Já uma linguagem interpretada, possui um interpretador que executa e transforma o codigo, linha por linha, em codigo binario. Esse processo acontece na hora em que executamos um arquivo contendo as instrucoes.
 
